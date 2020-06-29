@@ -1,0 +1,18 @@
+.image-uploader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  input[type='file'] {
+    display: none;
+  }
+  .custom-file-upload {
+    background: #16abe0;
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
+    span {
+      font-size: 30px;
+    }
+  }
+}
